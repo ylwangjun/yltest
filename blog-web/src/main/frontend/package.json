@@ -1,0 +1,38 @@
+{
+  "name": "blog-web-frontend",
+  "version": "0.1.0",
+  "homepage": "./install",
+  "private": true,
+  "dependencies": {
+    "axios": "0.21.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "antd": "4.16.5"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "cross-env GENERATE_SOURCEMAP=false craco build",
+    "test": "cross-env  test"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "react-scripts": "4.0.3",
+    "@craco/craco": "6.1.2",
+    "cross-env":"7.0.3",
+    "craco-less": "1.17.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
